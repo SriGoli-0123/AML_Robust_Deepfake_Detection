@@ -1,18 +1,18 @@
 # AML_Robust_Deepfake_Detection
 
-# For installing the dependencies and creating the virtual env:
+### For installing the dependencies and creating the virtual env:
 ```
 1) python3 -m venv ias
 2) source ias/bin/activate
 3) pip install -r requirements-2.txt
 ```
 
-# For downloading the actual FaceForensics++ dataset
+### For downloading the actual FaceForensics++ dataset
 ```
 python3 download_faceforensics.py
 ```
 
-# For preprocessing into frames and storing
+### For preprocessing into frames and storing
 ```
 python3 02_combine_face_extract_RESUME.py
 
@@ -26,7 +26,7 @@ The code can be resumed with the same command, and you can view the progress in 
 
 ```
 
-# For performing attacks, comparing results and the rest of work
+### For performing attacks, comparing results and the rest of work
 ```
 python3 03_malafide_xception_final.py
 python3 03A_fgsm_pgd_xception_final.py
