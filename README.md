@@ -19,10 +19,10 @@ python3 02_combine_face_extract_RESUME.py
 This takes each original video, clips the video such that only face is visible, 
 extracts 10 frames per that video, and saves them into a parquet file.
 
-Whenever the systems seems to not handle such processing, press Ctrl+C to halt, 
-and it completes the video which was in the middle of preprocessing.
+Whenever you feel bored and want to stop the code, just press Ctrl+C to halt, 
+and it completes the video which was in the middle of preprocessing and save it.
 
-The code can be resumed with the same command.
+The code can be resumed with the same command, and you can view the progress in the checkpoint json file.
 
 ```
 
