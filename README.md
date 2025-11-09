@@ -22,7 +22,12 @@ extracts 10 frames per that video, and saves them into a parquet file.
 Whenever you feel bored and want to stop the code, just press Ctrl+C to halt, 
 and it completes the video which was in the middle of preprocessing and save it.
 
-The code can be resumed with the same command, and you can view the progress in the checkpoint json file.
+The code can be resumed with the same command, 
+and you can view the progress in the checkpoint json file.
+
+for the other manipulated types, change the CATEGORY variable in the code
+to one of the 4 types, and run the codes once again:
+deepfakes, face2face, faceswap, neuraltextures
 
 ```
 
@@ -37,6 +42,8 @@ python3 05_visualization_analysis_scaled.py
 Whenever you are free, please run the preprocessing commands to generate the data, since my laptop isn't 
 supporting much.
 
+Final output: 50000 frames in total 
+(cannot guarantee on a few videos though)
 
 
 
