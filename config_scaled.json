@@ -1,0 +1,31 @@
+{
+    "dataset_path": "/Users/sriharshithgoli/.cache/kagglehub/datasets/xdxd003/ff-c23/versions/1",
+    "dataset_stats": {
+        "original": 1000,
+        "deepfakes": 1000,
+        "face2face": 1000,
+        "faceswap": 1000,
+        "neuraltextures": 1000
+    },
+    "total_videos": 5000,
+    "total_frames_expected": 50000,
+    "random_seed": 42,
+    "categorized_video_paths": {
+        "original": [
+        "data/raw/videos/original_sequences/youtube/c23/videos/*.mp4"
+        ],
+        "deepfakes": [
+        "data/raw/videos/manipulated_sequences/Deepfakes/c23/videos/*.mp4"
+        ],
+        "face2face": [
+        "data/raw/videos/manipulated_sequences/Face2Face/c23/videos/*.mp4"
+        ],
+        "faceswap": [
+        "data/raw/videos/manipulated_sequences/FaceSwap/c23/videos/*.mp4"
+        ],
+        "neuraltextures": [
+        "data/raw/videos/manipulated_sequences/NeuralTextures/c23/videos/*.mp4"
+        ]
+    },
+    "important_note": "Videos are grouped by source - each video has all 5 variants. Paths point to Kaggle cached dataset."
+}
